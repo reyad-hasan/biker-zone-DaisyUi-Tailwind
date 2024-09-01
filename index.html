@@ -35,6 +35,7 @@
                         'bike-gray': '#6B7280',
                         'bike-header-bg': '#E76F511A',
                         'bike-name-color': '#23A6F0',
+                        'bike-footer-bg': '#0B0D17',
                     }
                 }
             }
@@ -399,7 +400,36 @@
     </main>
 
     <!-- footer section -->
-    <footer></footer>
+    <footer class="bg-bike-footer-bg mt-7 lg:mt-28 p-10 lg:p-0">
+        <!-- footer main container -->
+        <section class="md:container mx-auto lg:py-24 lg:px-32">
+            <div class="flex flex-col md:flex-row md:justify-between gap-10 md:gap-0">
+                <!-- link box -->
+                <div>
+                    <ul class="text-bike-white text-sm flex gap-10">
+                        <li class="hover:text-bike-primary"><a href="#">Download Now</a></li>
+                        <li class="hover:text-bike-primary"><a href="#">License</a></li>
+                    </ul>
+                    <ul class="text-bike-white text-sm flex gap-10 flex-wrap md:flex-row mt-7">
+                        <li class="hover:text-bike-primary"><a href="#">About</a></li>
+                        <li class="hover:text-bike-primary"><a href="#">Features</a></li>
+                        <li class="hover:text-bike-primary"><a href="#">Pricing</a></li>
+                        <li class="hover:text-bike-primary"><a href="#">Careers</a></li>
+                        <li class="hover:text-bike-primary"><a href="#">Help</a></li>
+                        <li class="hover:text-bike-primary"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                    <p class="text-bike-white mt-10 invisible md:visible">© 2020 bike. All rights reserved</p>
+                </div>
+                <!-- icon link box -->
+                <div>
+                    <h3 class="text-3xl text-bike-white">Get the App</h3>
+                    <a href="#"><img class="w-48 my-5" src="./images/others/android.png" alt=""></a>
+                    <a href="#"><img class="w-48" src="./images/others/ios.png" alt=""></a>
+                </div>
+                <p class="text-bike-white md:hidden">© 2020 bike. All rights reserved</p>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
