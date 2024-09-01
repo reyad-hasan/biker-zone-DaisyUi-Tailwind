@@ -170,7 +170,81 @@
     </header>
 
     <!-- main section -->
-    <main></main>
+    <main class="md:container mx-auto">
+        <!-- Featured Bikes section -->
+        <section class="mt-7 lg:mt-16 p-10 lg:p-0">
+            <!-- title box -->
+            <div class="text-center">
+                <h1 class="text-3xl lg:text-5xl font-bold text-bike-black mb-3">Featured Bikes In This Year</h1>
+                <p class="text-bike-primary font-medium">Best bike collection</p>
+                <div class="w-[90px] bg-bike-primary h-[2px] mx-auto"></div>
+            </div>
+
+            <!-- bike images grid container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center mt-16 gap-20 lg:gap-0">
+                <div><img class="grayscale" src="./images/others/feature-bike.png" alt=""></div>
+                <div><img src="./images/others/feature-bike.png" alt=""></div>
+                <div><img class="grayscale" src="./images/others/feature-bike.png" alt=""></div>
+            </div>
+        </section>
+
+        <!-- latest News section -->
+        <section class="mt-7 lg:mt-28 p-10 lg:p-0">
+            <!-- title -->
+            <div>
+                <h1 class="text-3xl lg:text-5xl font-bold text-bike-black mb-3 text-center">Latest News</h1>
+                <div class="w-[150px] lg:w-[200px] bg-bike-primary h-[2px] mx-auto"></div>
+            </div>
+
+            <!-- latest news container -->
+            <div
+                class="mt-7 lg:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20 lg:px-24 justify-items-center">
+                <!-- card-1 -->
+                <div class="card bg-base-100 shadow-xl border">
+                    <figure>
+                        <img class="p-4 lg:p-6 w-full" src="./images/others/latest1.png" alt="latest1" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                        <p>The Ducati XDiavel S-73 is a part of the Ducati XDiavel series, a line of cruiser
+                            motorcycles:</p>
+                        <div class="card-actions mt-5">
+                            <button class="btn bg-bike-primary text-bike-white hover:text-bike-primary">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="card bg-base-100 shadow-xl border">
+                    <figure>
+                        <img class="p-4 lg:p-6 w-full" src="./images/others/latest2.png" alt="latest1" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Motorcycles & Scooters</h2>
+                        <p>Motorcycles and scooters are two popular types popular types of two-wheeled vehicles.</p>
+                        <div class="card-actions mt-5">
+                            <button class="btn bg-bike-primary text-bike-white hover:text-bike-primary">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="card bg-base-100 shadow-xl border">
+                    <figure>
+                        <img class="p-4 lg:p-6 w-full" src="./images/others/latest3.png" alt="latest1" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">2021 Honda CBR500R</h2>
+                        <p>The 2021 Honda CBR500R is a popular middleweight sportbike that offers a great balance.</p>
+                        <div class="card-actions mt-5">
+                            <button class="btn bg-bike-primary text-bike-white hover:text-bike-primary">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- footer section -->
     <footer></footer>
